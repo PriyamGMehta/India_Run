@@ -1,0 +1,73 @@
+candidate_id,institution,degree,field_of_study,start_year,end_year,grade,tier
+CAND_0000001,Lovely Professional University,B.E.,Computer Science,2017,2020,8.24 CGPA,tier_3
+CAND_0000002,Local Engineering College,B.Sc,Mathematics,2007,2011,77%,tier_4
+CAND_0000003,Local Engineering College,M.E.,Chemical Engineering,2005,2010,6.82 CGPA,tier_4
+CAND_0000003,Chandigarh University,M.Sc,Information Technology,2017,2021,87%,tier_3
+CAND_0000004,Local Engineering College,B.Tech,Machine Learning,2015,2019,7.72 CGPA,tier_4
+CAND_0000004,Lovely Professional University,Ph.D,Electronics,2013,2016,7.61 CGPA,tier_3
+CAND_0000005,Chandigarh University,M.Sc,Information Technology,2007,2012,87%,tier_3
+CAND_0000006,Lovely Professional University,B.Sc,Artificial Intelligence,2005,2008,9.26 CGPA,tier_3
+CAND_0000007,SRM University,M.E.,Data Science,2009,2013,8.28 CGPA,tier_2
+CAND_0000008,Anna University,B.Tech,Data Science,2008,2012,8.60 CGPA,tier_2
+CAND_0000008,SRM University,M.Sc,Computer Engineering,2009,2013,67%,tier_2
+CAND_0000009,KIIT University,B.Tech,Electronics,2009,2014,7.89 CGPA,tier_3
+CAND_0000010,Generic State University,B.E.,Mathematics,2007,2011,85%,tier_4
+CAND_0000010,Local Engineering College,M.S.,Computer Engineering,2013,2018,7.73 CGPA,tier_4
+CAND_0000011,Chandigarh University,B.Tech,Data Science,2014,2019,6.96 CGPA,tier_3
+CAND_0000011,Anna University,B.Sc,Information Technology,2015,2020,9.16 CGPA,tier_2
+CAND_0000012,Symbiosis International,B.Sc,Physics,2018,2022,68%,tier_3
+CAND_0000012,Christ University,B.Sc,Mechanical Engineering,2011,2015,7.28 CGPA,tier_3
+CAND_0000013,Delhi College of Engineering,B.E.,Information Technology,2019,2022,8.84 CGPA,tier_2
+CAND_0000013,Amity University,Ph.D,Information Technology,2008,2013,8.29 CGPA,tier_3
+CAND_0000014,Lovely Professional University,B.E.,Statistics,2012,2015,7.45 CGPA,tier_3
+CAND_0000015,Local Engineering College,Ph.D,Mathematics,2013,2017,8.15 CGPA,tier_4
+CAND_0000016,Christ University,B.E.,Electronics,2001,2006,8.32 CGPA,tier_3
+CAND_0000017,Tier-3 Engineering College,M.Tech,Data Science,2017,2022,7.58 CGPA,tier_4
+CAND_0000018,Lovely Professional University,Ph.D,Computer Engineering,2016,2020,7.25 CGPA,tier_3
+CAND_0000019,IISc Bangalore,M.Tech,Computer Science,2010,2014,72%,tier_1
+CAND_0000019,IIT Guwahati,M.Tech,Machine Learning,2002,2006,7.34 CGPA,tier_1
+CAND_0000020,IIT Kharagpur,B.E.,Computer Science,2018,2022,6.67 CGPA,tier_1
+CAND_0000021,Tier-3 Engineering College,B.Tech,Artificial Intelligence,2008,2011,9.30 CGPA,tier_4
+CAND_0000022,VJTI Mumbai,M.E.,Information Technology,2002,2006,8.23 CGPA,tier_2
+CAND_0000023,VJTI Mumbai,B.E.,Data Science,2009,2013,9.43 CGPA,tier_2
+CAND_0000024,Symbiosis International,Ph.D,Computer Science,2008,2013,7.65 CGPA,tier_3
+CAND_0000025,Regional Technical Institute,Ph.D,Mechanical Engineering,2006,2010,8.18 CGPA,tier_4
+CAND_0000026,Generic State University,M.Sc,Statistics,2008,2012,81%,tier_4
+CAND_0000026,Lovely Professional University,B.E.,Machine Learning,2008,2013,83%,tier_3
+CAND_0000027,IIT Bombay,Ph.D,Information Technology,2006,2010,6.55 CGPA,tier_1
+CAND_0000027,VJTI Mumbai,B.E.,Artificial Intelligence,2017,2020,9.11 CGPA,tier_2
+CAND_0000028,Symbiosis International,M.Tech,Mathematics,2014,2017,7.85 CGPA,tier_3
+CAND_0000029,Symbiosis International,B.Tech,Artificial Intelligence,2007,2011,6.59 CGPA,tier_3
+CAND_0000030,Generic State University,B.E.,Computer Engineering,2010,2014,81%,tier_4
+CAND_0000030,Generic State University,Ph.D,Artificial Intelligence,2017,2020,7.98 CGPA,tier_4
+CAND_0000031,SRM University,M.Tech,Computer Engineering,2002,2006,9.16 CGPA,tier_2
+CAND_0000032,VIT Chennai,M.Sc,Machine Learning,2017,2020,8.37 CGPA,tier_3
+CAND_0000032,Amity University,Ph.D,Physics,2011,2015,7.95 CGPA,tier_3
+CAND_0000033,Tier-3 Engineering College,M.S.,Computer Science,2014,2017,9.32 CGPA,tier_4
+CAND_0000034,Tier-3 Engineering College,B.E.,Computer Engineering,2005,2010,8.97 CGPA,tier_4
+CAND_0000035,Generic State University,B.E.,Civil Engineering,2010,2013,90%,tier_4
+CAND_0000035,Bharati Vidyapeeth,M.S.,Data Science,2010,2015,7.08 CGPA,tier_3
+CAND_0000036,KIIT University,M.S.,Commerce,2002,2006,8.89 CGPA,tier_3
+CAND_0000037,Tier-3 Engineering College,B.Tech,Machine Learning,2001,2005,69%,tier_4
+CAND_0000037,Lovely Professional University,M.Tech,Statistics,2013,2016,6.81 CGPA,tier_3
+CAND_0000038,VIT Chennai,B.Sc,Computer Engineering,2015,2020,70%,tier_3
+CAND_0000039,Chandigarh University,B.Tech,Electrical Engineering,2009,2014,66%,tier_3
+CAND_0000039,Chandigarh University,M.E.,Artificial Intelligence,2007,2011,82%,tier_3
+CAND_0000040,Local Engineering College,B.Tech,MBA,2010,2013,7.45 CGPA,tier_4
+CAND_0000041,Local Engineering College,M.S.,Machine Learning,2013,2018,8.73 CGPA,tier_4
+CAND_0000042,SRM Chennai,B.Tech,Civil Engineering,2014,2019,7.40 CGPA,tier_3
+CAND_0000042,Symbiosis International,B.E.,Mathematics,2017,2021,8.07 CGPA,tier_3
+CAND_0000043,Regional Technical Institute,M.E.,Electronics,2012,2017,8.77 CGPA,tier_4
+CAND_0000043,Regional Technical Institute,B.Sc,Physics,2001,2005,9.29 CGPA,tier_4
+CAND_0000044,Chandigarh University,M.Sc,Information Technology,2016,2021,84%,tier_3
+CAND_0000044,Amity University,B.E.,Civil Engineering,2002,2006,9.33 CGPA,tier_3
+CAND_0000045,Generic State University,M.E.,Statistics,2002,2005,7.91 CGPA,tier_4
+CAND_0000045,KIIT University,B.Tech,Machine Learning,2016,2020,86%,tier_3
+CAND_0000046,Christ University,M.Tech,Electrical Engineering,2014,2017,9.49 CGPA,tier_3
+CAND_0000046,Chandigarh University,B.E.,Statistics,2004,2009,7.94 CGPA,tier_3
+CAND_0000047,Amity University,B.Sc,Mechanical Engineering,2011,2016,7.18 CGPA,tier_3
+CAND_0000048,VIT Chennai,B.E.,Data Science,2005,2009,84%,tier_3
+CAND_0000048,Anna University,B.Tech,Statistics,2011,2016,6.96 CGPA,tier_2
+CAND_0000049,Symbiosis International,M.Tech,Mathematics,2016,2019,7.32 CGPA,tier_3
+CAND_0000050,VIT Chennai,Ph.D,Artificial Intelligence,2001,2005,6.66 CGPA,tier_3
+CAND_0000050,Georgia Tech,B.Sc,Artificial Intelligence,2013,2017,7.81 CGPA,tier_1

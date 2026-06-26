@@ -1,0 +1,471 @@
+candidate_id,skill_name,proficiency,endorsements,duration_months
+CAND_0000001,Tailwind,intermediate,3,13
+CAND_0000001,NLP,advanced,37,26
+CAND_0000001,Image Classification,advanced,7,40
+CAND_0000001,Fine-tuning LLMs,advanced,21,36
+CAND_0000001,Weights & Biases,intermediate,13,30
+CAND_0000001,Speech Recognition,advanced,52,33
+CAND_0000001,Photoshop,intermediate,8,24
+CAND_0000001,TTS,advanced,56,60
+CAND_0000001,LoRA,intermediate,0,28
+CAND_0000001,Apache Beam,intermediate,4,9
+CAND_0000001,AWS,beginner,5,8
+CAND_0000001,Flask,beginner,15,15
+CAND_0000001,BentoML,intermediate,3,36
+CAND_0000001,Milvus,advanced,40,35
+CAND_0000001,GANs,advanced,12,19
+CAND_0000001,Statistical Modeling,intermediate,9,8
+CAND_0000001,GCP,beginner,7,2
+CAND_0000002,Project Management,intermediate,14,23
+CAND_0000002,React,intermediate,6,35
+CAND_0000002,Photoshop,intermediate,9,35
+CAND_0000002,TypeScript,beginner,2,3
+CAND_0000002,Marketing,beginner,9,11
+CAND_0000002,Kafka,intermediate,3,16
+CAND_0000002,JavaScript,beginner,9,3
+CAND_0000002,Feature Engineering,intermediate,11,27
+CAND_0000002,GCP,intermediate,7,30
+CAND_0000003,Angular,intermediate,13,10
+CAND_0000003,SEO,beginner,11,11
+CAND_0000003,Excel,intermediate,2,15
+CAND_0000003,Accounting,beginner,7,18
+CAND_0000003,Kubernetes,intermediate,0,34
+CAND_0000003,Databricks,beginner,14,18
+CAND_0000004,Node.js,intermediate,1,20
+CAND_0000004,Content Writing,beginner,7,3
+CAND_0000004,Redux,beginner,14,8
+CAND_0000004,Airflow,intermediate,11,27
+CAND_0000004,GraphQL,beginner,13,2
+CAND_0000004,Object Detection,intermediate,3,17
+CAND_0000004,Webpack,beginner,10,7
+CAND_0000004,Six Sigma,beginner,1,12
+CAND_0000004,SAP,intermediate,6,9
+CAND_0000004,JavaScript,intermediate,14,29
+CAND_0000005,SQL,beginner,12,12
+CAND_0000005,PowerPoint,beginner,6,14
+CAND_0000005,Photoshop,beginner,4,18
+CAND_0000005,Tailwind,intermediate,15,35
+CAND_0000005,Apache Flink,intermediate,1,30
+CAND_0000005,Image Classification,advanced,50,38
+CAND_0000006,Content Writing,intermediate,0,33
+CAND_0000006,SEO,intermediate,13,31
+CAND_0000006,Redux,beginner,15,12
+CAND_0000006,SQL,beginner,9,11
+CAND_0000006,Sales,intermediate,5,27
+CAND_0000006,gRPC,beginner,8,3
+CAND_0000006,Django,intermediate,3,11
+CAND_0000006,Terraform,beginner,4,13
+CAND_0000007,Content Writing,beginner,12,14
+CAND_0000007,MongoDB,intermediate,13,9
+CAND_0000007,Sales,intermediate,0,27
+CAND_0000007,Spark,beginner,14,14
+CAND_0000007,Scrum,beginner,4,18
+CAND_0000007,Apache Beam,beginner,4,3
+CAND_0000007,Illustrator,beginner,14,2
+CAND_0000008,Java,intermediate,2,32
+CAND_0000008,BigQuery,beginner,5,9
+CAND_0000008,Spark,beginner,4,6
+CAND_0000008,Accounting,beginner,8,3
+CAND_0000008,Kubernetes,intermediate,2,9
+CAND_0000008,TypeScript,intermediate,14,11
+CAND_0000008,Rust,intermediate,12,16
+CAND_0000008,HTML,beginner,8,11
+CAND_0000009,Snowflake,intermediate,5,8
+CAND_0000009,gRPC,beginner,6,12
+CAND_0000009,JavaScript,intermediate,0,23
+CAND_0000009,OpenCV,intermediate,12,36
+CAND_0000009,Go,intermediate,12,20
+CAND_0000009,PowerPoint,intermediate,1,10
+CAND_0000010,GCP,beginner,7,8
+CAND_0000010,Spring Boot,beginner,3,2
+CAND_0000010,Kubeflow,intermediate,11,19
+CAND_0000010,Java,intermediate,12,19
+CAND_0000010,GANs,advanced,58,57
+CAND_0000010,Figma,beginner,4,3
+CAND_0000010,Elasticsearch,intermediate,15,17
+CAND_0000010,OpenCV,advanced,0,24
+CAND_0000010,CNN,intermediate,15,8
+CAND_0000010,Azure,beginner,7,11
+CAND_0000010,Prompt Engineering,advanced,42,35
+CAND_0000010,Object Detection,advanced,55,58
+CAND_0000010,MLOps,intermediate,3,10
+CAND_0000010,Python,intermediate,7,14
+CAND_0000010,BM25,advanced,55,55
+CAND_0000010,Weights & Biases,advanced,4,21
+CAND_0000010,Sales,beginner,5,18
+CAND_0000011,Recommendation Systems,advanced,5,40
+CAND_0000011,Scrum,beginner,13,7
+CAND_0000011,FastAPI,beginner,4,12
+CAND_0000011,Hugging Face Transformers,intermediate,1,30
+CAND_0000011,AWS,beginner,4,18
+CAND_0000011,Snowflake,beginner,4,11
+CAND_0000011,Spring Boot,intermediate,12,31
+CAND_0000011,PostgreSQL,intermediate,7,24
+CAND_0000011,Kubeflow,advanced,6,59
+CAND_0000011,Azure,beginner,12,8
+CAND_0000012,Azure,beginner,7,10
+CAND_0000012,Airflow,intermediate,2,15
+CAND_0000012,AWS,intermediate,15,30
+CAND_0000012,gRPC,beginner,9,2
+CAND_0000012,Vue.js,intermediate,2,15
+CAND_0000012,dbt,intermediate,11,22
+CAND_0000012,Agile,intermediate,4,14
+CAND_0000012,PowerPoint,intermediate,1,27
+CAND_0000012,Content Writing,intermediate,3,36
+CAND_0000012,Project Management,beginner,5,3
+CAND_0000013,React,intermediate,5,23
+CAND_0000013,Redux,intermediate,11,9
+CAND_0000013,Vue.js,beginner,12,12
+CAND_0000013,Six Sigma,beginner,1,2
+CAND_0000013,Spring Boot,beginner,12,12
+CAND_0000013,Spark,intermediate,7,30
+CAND_0000013,Data Pipelines,intermediate,6,36
+CAND_0000013,GCP,intermediate,0,18
+CAND_0000013,Flask,intermediate,12,8
+CAND_0000013,Snowflake,intermediate,2,8
+CAND_0000014,FAISS,advanced,40,44
+CAND_0000014,BigQuery,intermediate,6,24
+CAND_0000014,React,beginner,11,10
+CAND_0000014,OpenSearch,advanced,47,59
+CAND_0000014,OpenCV,advanced,30,60
+CAND_0000014,YOLO,advanced,1,44
+CAND_0000014,SAP,intermediate,5,30
+CAND_0000014,SEO,beginner,0,12
+CAND_0000014,REST APIs,beginner,3,4
+CAND_0000014,GANs,advanced,9,33
+CAND_0000014,dbt,beginner,0,13
+CAND_0000014,Photoshop,intermediate,1,32
+CAND_0000014,Tailwind,intermediate,2,32
+CAND_0000015,PyTorch,intermediate,10,15
+CAND_0000015,Content Writing,intermediate,8,31
+CAND_0000015,Weights & Biases,intermediate,5,24
+CAND_0000015,Qdrant,intermediate,13,9
+CAND_0000015,Sales,intermediate,13,30
+CAND_0000015,Figma,intermediate,9,29
+CAND_0000015,BigQuery,beginner,0,7
+CAND_0000015,Computer Vision,intermediate,6,20
+CAND_0000015,Next.js,intermediate,12,35
+CAND_0000015,SEO,intermediate,10,29
+CAND_0000016,Node.js,beginner,4,11
+CAND_0000016,Figma,beginner,12,6
+CAND_0000016,Data Pipelines,beginner,2,7
+CAND_0000016,Go,beginner,0,10
+CAND_0000016,Photoshop,intermediate,10,22
+CAND_0000016,Kubeflow,advanced,2,54
+CAND_0000016,Accounting,intermediate,4,31
+CAND_0000016,SQL,intermediate,14,16
+CAND_0000017,Next.js,beginner,9,18
+CAND_0000017,Java,intermediate,13,15
+CAND_0000017,Apache Flink,intermediate,4,16
+CAND_0000017,Sales,intermediate,4,8
+CAND_0000017,Tally,intermediate,14,12
+CAND_0000017,PostgreSQL,intermediate,11,25
+CAND_0000017,REST APIs,beginner,15,4
+CAND_0000017,Hadoop,intermediate,4,35
+CAND_0000018,CNN,advanced,53,55
+CAND_0000018,Java,intermediate,10,12
+CAND_0000018,Accounting,intermediate,9,20
+CAND_0000018,Data Pipelines,beginner,3,13
+CAND_0000018,Node.js,intermediate,0,9
+CAND_0000018,Tailwind,beginner,10,10
+CAND_0000019,Figma,intermediate,13,34
+CAND_0000019,GraphQL,beginner,4,12
+CAND_0000019,Six Sigma,beginner,4,10
+CAND_0000019,Scrum,beginner,15,2
+CAND_0000019,YOLO,intermediate,10,34
+CAND_0000019,gRPC,beginner,12,9
+CAND_0000019,AWS,intermediate,11,28
+CAND_0000019,Azure,intermediate,6,21
+CAND_0000020,GraphQL,beginner,15,18
+CAND_0000020,TypeScript,beginner,7,8
+CAND_0000020,Flask,beginner,11,16
+CAND_0000020,Weights & Biases,advanced,50,30
+CAND_0000020,GCP,intermediate,2,34
+CAND_0000020,Salesforce CRM,beginner,8,16
+CAND_0000020,HTML,intermediate,2,35
+CAND_0000021,Hadoop,beginner,10,5
+CAND_0000021,PostgreSQL,beginner,10,4
+CAND_0000021,Kafka,beginner,6,6
+CAND_0000021,Microservices,intermediate,0,14
+CAND_0000021,AWS,intermediate,11,26
+CAND_0000021,TypeScript,beginner,6,6
+CAND_0000021,ETL,beginner,11,3
+CAND_0000021,Spring Boot,beginner,1,12
+CAND_0000021,Recommendation Systems,advanced,3,13
+CAND_0000021,Fine-tuning LLMs,advanced,4,4
+CAND_0000021,Prompt Engineering,advanced,4,5
+CAND_0000021,LangChain,intermediate,1,7
+CAND_0000021,Pinecone,intermediate,4,16
+CAND_0000021,Vector Search,intermediate,3,13
+CAND_0000021,Embeddings,advanced,4,18
+CAND_0000021,FAISS,intermediate,2,8
+CAND_0000022,OpenCV,intermediate,2,11
+CAND_0000022,Django,intermediate,0,23
+CAND_0000022,Terraform,intermediate,11,14
+CAND_0000022,Scrum,intermediate,7,18
+CAND_0000022,SQL,intermediate,3,36
+CAND_0000022,Java,beginner,11,15
+CAND_0000022,AWS,intermediate,5,29
+CAND_0000022,Six Sigma,beginner,1,4
+CAND_0000023,BigQuery,beginner,8,6
+CAND_0000023,Marketing,intermediate,0,15
+CAND_0000023,Node.js,intermediate,3,28
+CAND_0000023,Django,beginner,13,16
+CAND_0000023,Salesforce CRM,beginner,9,18
+CAND_0000023,MongoDB,beginner,8,10
+CAND_0000023,ETL,beginner,12,16
+CAND_0000023,Redis,beginner,4,10
+CAND_0000023,Illustrator,beginner,1,2
+CAND_0000023,Rust,intermediate,2,16
+CAND_0000024,Figma,beginner,14,15
+CAND_0000024,Kubernetes,beginner,8,17
+CAND_0000024,Forecasting,advanced,43,30
+CAND_0000024,ETL,intermediate,11,12
+CAND_0000024,Node.js,intermediate,3,15
+CAND_0000024,Docker,beginner,5,5
+CAND_0000025,JavaScript,intermediate,10,26
+CAND_0000025,Spark,intermediate,0,22
+CAND_0000025,GCP,beginner,7,13
+CAND_0000025,TypeScript,beginner,2,17
+CAND_0000025,LangChain,advanced,15,34
+CAND_0000025,Apache Flink,intermediate,2,19
+CAND_0000025,ETL,beginner,1,18
+CAND_0000025,Redis,beginner,0,10
+CAND_0000025,Data Pipelines,intermediate,9,32
+CAND_0000026,Apache Beam,intermediate,4,18
+CAND_0000026,Kubeflow,intermediate,14,27
+CAND_0000026,Scrum,beginner,12,8
+CAND_0000026,ETL,beginner,15,17
+CAND_0000026,Django,beginner,6,11
+CAND_0000026,Docker,beginner,4,9
+CAND_0000026,Airflow,intermediate,7,21
+CAND_0000026,Kubernetes,intermediate,13,22
+CAND_0000027,Docker,intermediate,1,9
+CAND_0000027,YOLO,advanced,31,20
+CAND_0000027,PEFT,advanced,39,35
+CAND_0000027,Webpack,intermediate,0,33
+CAND_0000027,Data Science,advanced,18,24
+CAND_0000027,AWS,beginner,4,16
+CAND_0000027,Java,intermediate,2,15
+CAND_0000027,Angular,intermediate,4,25
+CAND_0000027,Databricks,intermediate,3,31
+CAND_0000027,ETL,intermediate,5,11
+CAND_0000027,Marketing,beginner,15,14
+CAND_0000027,Information Retrieval,intermediate,5,32
+CAND_0000027,Weights & Biases,advanced,31,44
+CAND_0000027,Terraform,intermediate,12,19
+CAND_0000027,SAP,intermediate,8,9
+CAND_0000027,Illustrator,beginner,1,11
+CAND_0000028,Snowflake,beginner,6,3
+CAND_0000028,React,beginner,11,7
+CAND_0000028,JavaScript,beginner,6,10
+CAND_0000028,Tailwind,beginner,13,15
+CAND_0000028,REST APIs,intermediate,6,21
+CAND_0000028,Photoshop,intermediate,9,30
+CAND_0000028,Data Pipelines,intermediate,4,23
+CAND_0000028,Terraform,intermediate,9,18
+CAND_0000028,CNN,intermediate,8,29
+CAND_0000028,Content Writing,beginner,9,18
+CAND_0000029,Node.js,beginner,9,18
+CAND_0000029,Scrum,beginner,2,5
+CAND_0000029,Tailwind,intermediate,5,21
+CAND_0000029,Hadoop,beginner,10,4
+CAND_0000029,Spring Boot,intermediate,1,10
+CAND_0000029,CI/CD,beginner,4,18
+CAND_0000029,gRPC,beginner,15,17
+CAND_0000029,Terraform,beginner,9,10
+CAND_0000030,gRPC,intermediate,3,36
+CAND_0000030,Apache Beam,beginner,5,6
+CAND_0000030,GraphQL,intermediate,2,22
+CAND_0000030,Java,intermediate,14,11
+CAND_0000030,Spring Boot,intermediate,2,22
+CAND_0000030,Microservices,beginner,11,5
+CAND_0000030,Six Sigma,beginner,8,8
+CAND_0000030,Accounting,intermediate,3,30
+CAND_0000030,HTML,intermediate,12,9
+CAND_0000031,Go,intermediate,7,19
+CAND_0000031,MLflow,advanced,59,21
+CAND_0000031,FAISS,advanced,19,35
+CAND_0000031,Pinecone,expert,34,88
+CAND_0000031,Angular,beginner,4,18
+CAND_0000031,Image Classification,advanced,56,28
+CAND_0000031,Machine Learning,advanced,43,23
+CAND_0000031,Speech Recognition,intermediate,14,24
+CAND_0000031,BentoML,intermediate,6,14
+CAND_0000031,MLOps,intermediate,15,36
+CAND_0000031,Embeddings,expert,48,60
+CAND_0000031,Information Retrieval,expert,2,84
+CAND_0000031,Hugging Face Transformers,expert,18,36
+CAND_0000031,Feature Engineering,advanced,38,26
+CAND_0000031,Sentence Transformers,expert,16,69
+CAND_0000031,scikit-learn,advanced,41,60
+CAND_0000031,Marketing,intermediate,11,36
+CAND_0000032,Speech Recognition,advanced,36,19
+CAND_0000032,Project Management,beginner,6,17
+CAND_0000032,REST APIs,beginner,13,6
+CAND_0000032,CSS,intermediate,15,27
+CAND_0000032,Embeddings,advanced,30,30
+CAND_0000032,Hadoop,beginner,0,8
+CAND_0000032,Spark,intermediate,14,30
+CAND_0000032,Python,intermediate,2,13
+CAND_0000032,Data Pipelines,beginner,6,8
+CAND_0000032,OpenCV,advanced,45,54
+CAND_0000033,Kubernetes,beginner,0,9
+CAND_0000033,Data Pipelines,beginner,4,8
+CAND_0000033,Snowflake,intermediate,11,12
+CAND_0000033,CI/CD,intermediate,11,29
+CAND_0000033,SEO,intermediate,9,36
+CAND_0000033,ETL,intermediate,0,20
+CAND_0000033,Airflow,intermediate,11,16
+CAND_0000033,TypeScript,intermediate,13,15
+CAND_0000033,Content Writing,intermediate,13,11
+CAND_0000033,Spring Boot,intermediate,5,26
+CAND_0000034,GraphQL,beginner,2,3
+CAND_0000034,Excel,intermediate,15,19
+CAND_0000034,Node.js,beginner,6,6
+CAND_0000034,Terraform,intermediate,6,13
+CAND_0000034,Salesforce CRM,intermediate,6,27
+CAND_0000034,Flask,intermediate,8,28
+CAND_0000034,React,beginner,14,2
+CAND_0000034,Azure,beginner,1,5
+CAND_0000034,Redux,beginner,15,3
+CAND_0000034,Next.js,intermediate,7,21
+CAND_0000035,Snowflake,intermediate,11,27
+CAND_0000035,BigQuery,beginner,15,6
+CAND_0000035,Recommendation Systems,intermediate,2,34
+CAND_0000035,Data Pipelines,beginner,14,18
+CAND_0000035,Docker,beginner,3,11
+CAND_0000035,MongoDB,intermediate,11,16
+CAND_0000035,PostgreSQL,intermediate,14,13
+CAND_0000035,Sales,intermediate,0,19
+CAND_0000035,Kafka,intermediate,14,29
+CAND_0000035,Speech Recognition,intermediate,5,33
+CAND_0000035,BentoML,advanced,40,59
+CAND_0000035,Go,beginner,1,11
+CAND_0000035,Next.js,intermediate,15,22
+CAND_0000035,dbt,beginner,2,9
+CAND_0000036,Figma,beginner,6,13
+CAND_0000036,MongoDB,beginner,4,8
+CAND_0000036,PowerPoint,beginner,5,3
+CAND_0000036,CSS,beginner,5,14
+CAND_0000036,Excel,intermediate,9,28
+CAND_0000036,GraphQL,beginner,5,18
+CAND_0000036,Object Detection,advanced,39,37
+CAND_0000036,Vue.js,beginner,13,4
+CAND_0000036,Sales,beginner,4,9
+CAND_0000037,Databricks,intermediate,12,32
+CAND_0000037,Docker,intermediate,6,35
+CAND_0000037,Flask,beginner,5,14
+CAND_0000037,AWS,intermediate,2,33
+CAND_0000037,Terraform,beginner,3,18
+CAND_0000037,Tally,intermediate,14,24
+CAND_0000037,TTS,intermediate,3,13
+CAND_0000037,Apache Beam,intermediate,15,23
+CAND_0000038,Kubeflow,intermediate,3,26
+CAND_0000038,Django,beginner,2,18
+CAND_0000038,Redux,intermediate,3,13
+CAND_0000038,Weaviate,advanced,37,27
+CAND_0000038,PowerPoint,beginner,15,9
+CAND_0000038,Figma,beginner,9,8
+CAND_0000038,Docker,beginner,12,3
+CAND_0000038,GraphQL,intermediate,13,27
+CAND_0000038,Agile,intermediate,14,24
+CAND_0000038,MLOps,intermediate,13,26
+CAND_0000038,Azure,intermediate,14,27
+CAND_0000039,Spark,intermediate,9,15
+CAND_0000039,Tailwind,intermediate,9,8
+CAND_0000039,Sales,beginner,6,8
+CAND_0000039,CI/CD,intermediate,11,35
+CAND_0000039,Illustrator,intermediate,9,21
+CAND_0000039,Hadoop,intermediate,15,26
+CAND_0000039,Microservices,intermediate,13,19
+CAND_0000039,REST APIs,beginner,15,12
+CAND_0000039,AWS,intermediate,7,18
+CAND_0000040,SQL,beginner,12,4
+CAND_0000040,Spring Boot,intermediate,15,27
+CAND_0000040,Accounting,intermediate,15,16
+CAND_0000040,Rust,beginner,12,15
+CAND_0000040,Redux,intermediate,2,19
+CAND_0000040,SAP,intermediate,14,25
+CAND_0000040,Weights & Biases,intermediate,10,21
+CAND_0000040,REST APIs,intermediate,6,18
+CAND_0000040,Spark,beginner,4,14
+CAND_0000041,Airflow,intermediate,13,20
+CAND_0000041,SQL,intermediate,12,12
+CAND_0000041,Go,beginner,13,8
+CAND_0000041,GCP,beginner,0,3
+CAND_0000041,Figma,beginner,14,16
+CAND_0000041,React,intermediate,15,22
+CAND_0000041,Webpack,beginner,3,9
+CAND_0000041,Kubernetes,beginner,5,3
+CAND_0000041,Angular,intermediate,2,31
+CAND_0000042,Project Management,intermediate,3,33
+CAND_0000042,gRPC,beginner,3,10
+CAND_0000042,Marketing,intermediate,10,24
+CAND_0000042,SAP,beginner,12,18
+CAND_0000042,Illustrator,beginner,11,14
+CAND_0000042,Node.js,intermediate,3,14
+CAND_0000042,YOLO,intermediate,5,22
+CAND_0000042,Tailwind,beginner,8,16
+CAND_0000042,CSS,beginner,11,12
+CAND_0000042,Figma,beginner,10,7
+CAND_0000043,Elasticsearch,advanced,54,44
+CAND_0000043,OpenSearch,intermediate,21,34
+CAND_0000043,Airflow,beginner,5,2
+CAND_0000043,Kubeflow,advanced,12,55
+CAND_0000043,Fine-tuning LLMs,intermediate,8,14
+CAND_0000043,Haystack,advanced,11,27
+CAND_0000043,OpenCV,advanced,54,33
+CAND_0000043,TensorFlow,intermediate,0,19
+CAND_0000043,PEFT,intermediate,5,21
+CAND_0000043,LangChain,intermediate,37,25
+CAND_0000043,Weights & Biases,intermediate,4,26
+CAND_0000043,Reinforcement Learning,advanced,0,30
+CAND_0000043,Deep Learning,intermediate,0,16
+CAND_0000043,Image Classification,advanced,24,50
+CAND_0000043,Node.js,intermediate,12,24
+CAND_0000043,Project Management,intermediate,0,36
+CAND_0000043,Feature Engineering,intermediate,0,20
+CAND_0000044,Hadoop,beginner,3,3
+CAND_0000044,JavaScript,beginner,5,18
+CAND_0000044,Databricks,beginner,13,5
+CAND_0000044,Python,intermediate,2,26
+CAND_0000044,dbt,intermediate,3,16
+CAND_0000044,CI/CD,beginner,11,13
+CAND_0000045,GCP,beginner,1,3
+CAND_0000045,Sales,intermediate,2,12
+CAND_0000045,Redux,intermediate,14,25
+CAND_0000045,PostgreSQL,intermediate,1,36
+CAND_0000045,Airflow,intermediate,5,18
+CAND_0000045,SAP,intermediate,13,27
+CAND_0000046,Agile,beginner,1,9
+CAND_0000046,Scrum,intermediate,11,28
+CAND_0000046,SAP,intermediate,6,35
+CAND_0000046,React,beginner,7,7
+CAND_0000046,Azure,intermediate,3,36
+CAND_0000046,ETL,beginner,2,8
+CAND_0000047,FastAPI,beginner,8,4
+CAND_0000047,Java,intermediate,5,28
+CAND_0000047,Excel,intermediate,10,9
+CAND_0000047,Tally,intermediate,10,9
+CAND_0000047,SQL,intermediate,11,15
+CAND_0000047,Scrum,intermediate,1,13
+CAND_0000047,Hadoop,beginner,10,17
+CAND_0000048,Hadoop,beginner,2,15
+CAND_0000048,Terraform,intermediate,13,26
+CAND_0000048,Vue.js,intermediate,2,24
+CAND_0000048,Content Writing,intermediate,11,26
+CAND_0000048,AWS,intermediate,1,31
+CAND_0000049,TypeScript,beginner,0,8
+CAND_0000049,Rust,intermediate,1,16
+CAND_0000049,Data Pipelines,beginner,6,11
+CAND_0000049,Apache Beam,beginner,10,4
+CAND_0000049,GraphQL,intermediate,14,16
+CAND_0000049,Kubernetes,intermediate,5,13
+CAND_0000050,gRPC,intermediate,9,11
+CAND_0000050,SEO,beginner,8,18
+CAND_0000050,Feature Engineering,advanced,4,42
+CAND_0000050,Marketing,beginner,0,15
+CAND_0000050,Data Pipelines,beginner,0,15
+CAND_0000050,Kafka,beginner,7,13
+CAND_0000050,Excel,intermediate,10,23
