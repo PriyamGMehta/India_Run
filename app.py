@@ -1,6 +1,15 @@
 import streamlit as st
+
+# ======================================
+# PAGE CONFIG
+# ======================================
+st.set_page_config(
+    page_title="Talent Intelligence Platform",
+    layout="wide"
+)
+
 import pandas as pd
-from hidden_talent_engine import hidden_talent_score
+from candidates_df import hidden_talent_score
 from candidates_df import compare_candidates
 from candidates_df import recommend_candidates
 from candidates_df import create_segments
@@ -8,6 +17,11 @@ from talent_score_breakdown import get_score_breakdown
 from load_data import load_all_data
 from feature_engineering import master_df
 from market_value_predictor import train_market_model
+@st.cache_resource
+def load_market_model():
+    return train_market_model(master_df.fillna(0))
+
+market_model = load_market_model()
 from agentic_recruiter import generate_outreach_email
 
 
@@ -26,14 +40,7 @@ from agentic_recruiter import generate_outreach_email
     assessments_df
 ) = load_all_data()
 
-# ======================================
-# PAGE CONFIG
-# ======================================
 
-st.set_page_config(
-    page_title="Talent Intelligence Platform",
-    layout="wide"
-)
 
 st.markdown("""
     <style>
@@ -2164,6 +2171,8 @@ The candidate's profile has a <strong>{score}%</strong> latent synergy with the 
             st.plotly_chart(fig, use_container_width=True)
 
     # WRITE AI COPILOT CODE HERE
+
+
     if "AI Copilot" in selected_tab:
         st.markdown('<h2 style="color: #0f172a; margin-bottom: 20px; font-family: \'Inter\', sans-serif; font-size: 24px; font-weight: 800;">Predictive Market Value</h2>', unsafe_allow_html=True)
         
@@ -2206,10 +2215,9 @@ The candidate's profile has a <strong>{score}%</strong> latent synergy with the 
             lang_html_str = '<p style="margin: 5px 0 0 0; color: #0f172a; font-size: 14px; font-weight: 500;">Not specified</p>'
 
         with st.spinner("Training Random Forest model and predicting market value..."):
-            model = train_market_model(master_df.fillna(0))
             features = ["years_of_experience", "total_skills", "certification_count", "avg_assessment_score", "companies_worked", "github_activity_score"]
             X_cand = master_df[master_df["candidate_id"] == candidate][features].fillna(0)
-            predicted_val = model.predict(X_cand)[0]
+            predicted_val = market_model.predict(X_cand)[0]
             diff = expected_val - predicted_val
             
             if diff < -2:

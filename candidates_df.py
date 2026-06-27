@@ -360,6 +360,39 @@ if __name__ == "__main__":
     print("\nAll CSV files saved successfully.")
 
 # ====================================
+# Hidden Talent Engine
+# ====================================
+from sentence_transformers import SentenceTransformer
+from sklearn.metrics.pairwise import cosine_similarity
+
+model = SentenceTransformer(
+    "all-MiniLM-L6-v2"
+)
+
+def hidden_talent_score(
+        job_description,
+        candidate_profile
+):
+
+    jd_embedding = model.encode(
+        job_description
+    )
+
+    profile_embedding = model.encode(
+        candidate_profile
+    )
+
+    score = cosine_similarity(
+        [jd_embedding],
+        [profile_embedding]
+    )
+
+    return round(
+        score[0][0] * 100,
+        2
+    )
+
+# ====================================
 # CANDIDATE COMPARISON
 # ====================================
 
@@ -469,7 +502,8 @@ def create_segments(master_df):
 
     model = KMeans(
         n_clusters=3,
-        random_state=42
+        random_state=42,
+        n_init=10
     )
 
     master_df["segment"] = (
