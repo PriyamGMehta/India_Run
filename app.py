@@ -1290,6 +1290,7 @@ background: rgba(255,255,255,0.2);
                     job_description,
                     candidate_profile
                 )
+                score = round(score, 2)
                 
                 color = "#10b981" if score >= 75 else "#f59e0b" if score >= 50 else "#ef4444"
                 
