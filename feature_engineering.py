@@ -71,10 +71,17 @@ signals_df["expected_salary"] = pd.to_numeric(
 # FILL MISSING VALUES
 # ======================================
 
-skills_df.fillna(0, inplace=True)
-career_df.fillna(0, inplace=True)
-assessments_df.fillna(0, inplace=True)
-signals_df.fillna(0, inplace=True)
+def safe_fillna(df):
+    num_cols = df.select_dtypes(include=['number']).columns
+    char_cols = df.select_dtypes(exclude=['number']).columns
+    df[num_cols] = df[num_cols].fillna(0)
+    df[char_cols] = df[char_cols].fillna("")
+    return df
+
+skills_df = safe_fillna(skills_df)
+career_df = safe_fillna(career_df)
+assessments_df = safe_fillna(assessments_df)
+signals_df = safe_fillna(signals_df)
 
 # ======================================
 # SKILLS FEATURES
@@ -206,7 +213,7 @@ master_df = master_df.merge(
     how="left"
 )
 
-master_df.fillna(0, inplace=True)
+master_df = safe_fillna(master_df)
 
 # ======================================
 # CHECK RESULT
