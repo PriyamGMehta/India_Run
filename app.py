@@ -2450,9 +2450,9 @@ The candidate's profile has a <strong>{score:.2f}%</strong> latent synergy with 
                     with c3:
                         st.markdown(f"""
                         <div style="display: flex; align-items: center; gap: 10px; padding: 8px 0;">
-                            <div style="font-weight: 800; color: {score_color}; font-size: 14px; width: 45px;">{score}%</div>
+                            <div style="font-weight: 800; color: {score_color}; font-size: 14px; width: 45px;">{score:.2f}%</div>
                             <div style="flex-grow: 1; background: {border_color}; height: 6px; border-radius: 3px; overflow: hidden;">
-                                <div style="width: {score}%; background: {score_color}; height: 100%; border-radius: 3px;"></div>
+                                <div style="width: {score:.2f}%; background: {score_color}; height: 100%; border-radius: 3px;"></div>
                             </div>
                         </div>
                         """, unsafe_allow_html=True)
