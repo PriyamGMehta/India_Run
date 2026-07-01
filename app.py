@@ -1396,6 +1396,18 @@ The candidate's profile has a <strong>{score:.2f}%</strong> latent synergy with 
     if "Top Candidates" in selected_tab:
         st.markdown('<h2 style="color: #0f172a; margin-bottom: 20px;">🏆 Top Candidates Leaderboard</h2>', unsafe_allow_html=True)
         
+        try:
+            with open("Ranked_Candidates_Hidden_Talent.xlsx", "rb") as file:
+                st.download_button(
+                    label="📥 Download Ranked Candidates (XLSX)",
+                    data=file,
+                    file_name="Ranked_Candidates_Hidden_Talent.xlsx",
+                    mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    type="primary"
+                )
+        except FileNotFoundError:
+            pass
+            
         master_df["talent_score"] = (
             master_df["avg_assessment_score"].fillna(0)
             + master_df["github_activity_score"].fillna(0)
@@ -1403,7 +1415,7 @@ The candidate's profile has a <strong>{score:.2f}%</strong> latent synergy with 
         )
 
         ranked_df = master_df.sort_values("talent_score", ascending=False)
-        ranked_top = ranked_df.head(10)
+        ranked_top = ranked_df
         
         # --- Functional Enterprise SaaS List View ---
         st.markdown('<p style="color: #64748b; margin-bottom: 20px; font-weight: 500; font-size: 14px; text-transform: uppercase; letter-spacing: 1px;">Enterprise Leaderboard</p>', unsafe_allow_html=True)
