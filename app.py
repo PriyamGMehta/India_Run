@@ -410,7 +410,7 @@ if app_mode == "🤖 Dashboard":
         m1 = len(master_df)
         m2 = round(master_df["years_of_experience"].mean(), 1)
         m3 = round(master_df["total_skills"].mean(), 1)
-        m4 = int(round(master_df["profile_completeness_score"].mean(), 0))
+        m4 = int(round(master_df["open_to_work_flag"].mean() * 100, 0))
         
         # --- Advanced Glassmorphism KPI Dashboard ---
         html_cards = f"""
@@ -617,7 +617,7 @@ letter-spacing: 1px;
 </div>
 <div>
 <div class="card-value">{m4}<span>%</span></div>
-<div class="card-label">Avg Profile Score</div>
+<div class="card-label">Active Job Seekers</div>
 </div>
 </div>
 </div>
