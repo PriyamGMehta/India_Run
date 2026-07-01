@@ -1987,7 +1987,7 @@ The candidate's profile has a <strong>{score:.2f}%</strong> latent synergy with 
                         <h3 style="margin: 0; color: {text_main}; font-size: 18px; font-weight: 700;">{match['name']}</h3>
                         <p style="color: {text_muted}; font-size: 12px; margin-bottom: 15px;">{match['candidate_id']}</p>
                         <div style="background: {sub_bg}; border: 1px solid {card_border}; border-radius: 8px; padding: 10px; margin-bottom: 15px;">
-                            <div style="font-size: 24px; font-weight: 800; color: {color};">{match['score']}%</div>
+                            <div style="font-size: 24px; font-weight: 800; color: {color};">{match['score']:.2f}%</div>
                             <div style="font-size: 11px; font-weight: 700; color: {text_muted}; text-transform: uppercase;">Semantic Match</div>
                         </div>
                         <div style="display: flex; justify-content: space-between; font-size: 13px;">
