@@ -1304,7 +1304,7 @@ background: rgba(255,255,255,0.2);
                 st.markdown(f"""
 <style>
 .ai-match-card {{ background: {card_bg}; border: 1px solid {border_color}; border-radius: 16px; padding: 30px; text-align: center; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); width: 100%; max-width: 400px; }}
-.ai-match-ring {{ position: relative; width: 150px; height: 150px; border-radius: 50%; background: conic-gradient({color} {score}%, {empty_color} 0); margin: 0 auto; display: flex; align-items: center; justify-content: center; box-shadow: inset 0 2px 4px rgba(0,0,0,0.1); }}
+.ai-match-ring {{ position: relative; width: 150px; height: 150px; border-radius: 50%; background: conic-gradient({color} {score:.2f}%, {empty_color} 0); margin: 0 auto; display: flex; align-items: center; justify-content: center; box-shadow: inset 0 2px 4px rgba(0,0,0,0.1); }}
 .ai-match-inner {{ width: 120px; height: 120px; background: {card_bg}; border-radius: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }}
 </style>
 <div style="display: flex; justify-content: center; margin-top: 30px;">
@@ -1312,12 +1312,12 @@ background: rgba(255,255,255,0.2);
 <div style="font-size: 14px; color: #94a3b8; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 20px;">Match Result</div>
 <div class="ai-match-ring">
 <div class="ai-match-inner">
-<span style="font-size: 32px; font-weight: 800; color: {text_score};">{score}</span>
+<span style="font-size: 32px; font-weight: 800; color: {text_score};">{score:.2f}</span>
 <span style="font-size: 12px; color: #94a3b8; font-weight: 600;">SCORE</span>
 </div>
 </div>
 <div style="margin-top: 20px; color: {text_main}; font-size: 15px; line-height: 1.5;">
-The candidate's profile has a <strong>{score}%</strong> latent synergy with the target role.
+The candidate's profile has a <strong>{score:.2f}%</strong> latent synergy with the target role.
 </div>
 </div>
 </div>""", unsafe_allow_html=True)
