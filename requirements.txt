@@ -4,4 +4,6 @@ scikit-learn
 sentence-transformers
 numpy
 python-pptx
-matplotlibw
+matplotlib
+streamlit-option-menu
+plotly
