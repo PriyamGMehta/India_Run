@@ -1415,7 +1415,7 @@ The candidate's profile has a <strong>{score:.2f}%</strong> latent synergy with 
         )
 
         ranked_df = master_df.sort_values("talent_score", ascending=False)
-        ranked_top = ranked_df
+        ranked_top = ranked_df.head(10)
         
         # --- Functional Enterprise SaaS List View ---
         st.markdown('<p style="color: #64748b; margin-bottom: 20px; font-weight: 500; font-size: 14px; text-transform: uppercase; letter-spacing: 1px;">Enterprise Leaderboard</p>', unsafe_allow_html=True)
@@ -1944,7 +1944,7 @@ The candidate's profile has a <strong>{score:.2f}%</strong> latent synergy with 
         </div>
         </div>''', unsafe_allow_html=True)
         
-        job_desc = st.text_area("📋 Paste Target Job Description", height=150, placeholder="We are looking for a Senior Python Engineer...")
+        job_desc = st.text_area("📋 Job Description", height=150, placeholder="We are looking for a Senior Python Engineer...")
         
         if st.button("🚀 Find Perfect Matches", use_container_width=True):
             if job_desc:
@@ -2348,7 +2348,7 @@ The candidate's profile has a <strong>{score:.2f}%</strong> latent synergy with 
         selected_example = st.selectbox("💡 Try an Example Job Description:", list(example_jds.keys()))
         default_jd_text = example_jds[selected_example]
         
-        job_desc_input = st.text_area("📋 Paste Target Job Description", value=default_jd_text, height=150, placeholder="We are looking for...")
+        job_desc_input = st.text_area("📋 Job Description", value=default_jd_text, height=150, placeholder="We are looking for...")
         
         st.markdown('<br>', unsafe_allow_html=True)
         col_btn1, col_btn2, col_btn3 = st.columns([1, 1, 1])
